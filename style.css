@@ -10,23 +10,23 @@ Version: 1.0
       background-repeat: no-repeat;
       background-attachment: fixed ;
       background-size: cover;
+    
    
      
     }
 
 
 .topnav {
-    background-color:rgb(255, 255, 255) ;
+    background-color: transparent;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: right;
     color:#525252;
     text-align: center;
     font-weight:lighter;
-    padding:39px 33px 33px  33px;
+  
     text-decoration: none;
     font-size: 23px;
   }
@@ -39,7 +39,7 @@ Version: 1.0
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     color: white
   }
   * {
@@ -157,3 +157,4 @@ border-top: 3px solid rgba(146, 146, 146, 0.664);
       width: 800;
       height: 400px;
   }
+  
