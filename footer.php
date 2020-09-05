@@ -6,84 +6,36 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 
-  <footer class="page-footer font-small indigo">
-
-  <!-- Footer Links -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class=" font-weight-bold">
-          <a href="#!">Domov</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class=" font-weight-bold">
-          <a href="#!">O podjetju</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class=" font-weight-bold">
-          <a href="#!">Storitve</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class=" font-weight-bold">
-          <a href="#!">Kontakt</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-    
-
+  <!-- Footer -->
+<div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12 about-company">
+      <h2>Urbanija čistilni servis</h2>
+      <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+      <p><a href="https://www.facebook.com/cistilniservis.urbanija" target="_blank"><i class="fa fa-facebook-square mr-1"></i></a</p>
     </div>
-    <!-- Grid row-->
-    <hr class="rgba-white-light" style="margin: 0 15%;">
-
-    <!-- Grid row-->
-    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-      <!-- Grid column -->
-      <div class="col-md-8 col-12 mt-5">
-        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
-      </div>
-      <!-- Grid column -->
-
+    <div class="col-lg-3 col-xs-12 links">
+        <ul class="m-0 p-0">
+        <li>-<a href="#about">Kontakt</a> </li>
+       <li>-<a href="#about">Trgovina</a> </li>
+       <li>-<a href="#about">Storitve</a> </li>
+       <li>-<a href="#contact">O Podjetju</a> </li>
+       <li>-<a href="#news">Domov</a> </li>
+        </ul>
     </div>
-    <!-- Grid row-->
-    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-
-    <!-- Grid row-->
-    <div class="row pb-3">
-
-     
-
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="mt-lg-0 mt-sm-4">Lokacija</h4>
+      <p>Archinetova 1,1000 Ljubljana</p>
+      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+      <p><i class="fa fa-envelope-o mr-3"></i>info@cistilni-servis.eu</p>
     </div>
-    <!-- Grid row-->
-
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-     BunnyDesign</a>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2020 BunnyDesign.</small></p>
+    </div>
   </div>
-  <!-- Copyright -->
-</footer>
+</div>
+</div>
 </html>

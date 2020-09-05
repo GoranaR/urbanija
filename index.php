@@ -1,40 +1,13 @@
 <?php 
 get_header();?>
 
-<div class="background" style="background-image: url(<?php echo get_theme_file_uri('images/cover1.jpg')?>) ">
-
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?php echo get_theme_file_uri('images/c.jpg')?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Čistilni Servis URBANIJA</h1>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/5.jpg')?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Čistilni Servis URBANIJA</h1>
-    </div>
-     </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/6.jpg')?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Čistilni Servis URBANIJA</h1>
-      </div>
-    </div>
-  </div>
-</div>
 
 
-<hr class="solid">
 <br>
 <br>
-<div class="heading"><h2>Naša ponudba</h2></div>
-<hr class="rgba-white-light" style="margin: 0 15%;">
+<div class="heading"><h2>Storitve</h2></div>
 <br>
-<br>
-        <div class="col-container">
+<div class="col-container">
   <div class="row">
    <div class="col-sm padd">
   <div class="card" >
@@ -133,5 +106,6 @@ get_header();?>
 
 
 <?php
+require "contact_form.php";
 get_footer();
 ?>
