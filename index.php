@@ -105,8 +105,13 @@ get_header();?>
 </div>
 </div>
 <br>
+<<<<<<< HEAD
 oooooooo
 
+=======
+
+asdasdasdasd
+>>>>>>> 027efd167d9af740bafb8f4e906626e44ed71c3b
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
