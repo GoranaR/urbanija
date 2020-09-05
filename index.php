@@ -1,11 +1,23 @@
 <?php 
 get_header();?>
-<div class="background " style="background-image: url(<?php echo get_theme_file_uri('/images/cover3.jpg') ?>);">
-<div class="banner" style="background-image: url(<?php echo get_theme_file_uri('/images/b2.jpg') ?>)">
-<h1 class="display-4">Čistilni servis URBANIJA</h1>
-		</div>
 
 
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?php echo get_theme_file_uri('images/c.jpg')?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo get_theme_file_uri('images/5.jpg')?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo get_theme_file_uri('images/6.jpg')?>" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+</div>
+</div>
 
 <hr class="solid">
 <br>
@@ -105,35 +117,11 @@ get_header();?>
 </div>
 </div>
 <br>
-<<<<<<< HEAD
-oooooooo
 
-=======
 
-asdasdasdasd
->>>>>>> 027efd167d9af740bafb8f4e906626e44ed71c3b
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?php echo get_theme_file_uri('images/c.jpg')?>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/5.jpg')?>" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/6.jpg')?>" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>qweqwe
+
+
+
 <?php
 get_footer();
 ?>
