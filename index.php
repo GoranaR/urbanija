@@ -128,7 +128,7 @@ get_header();?>
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>eloooo
+</div>qweqwe
 <?php
 get_footer();
 ?>
