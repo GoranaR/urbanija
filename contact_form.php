@@ -15,31 +15,21 @@
           <div class="row">
               <!-- Section Titile -->
               <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                <p>ČISTILNI SERVIS URBANIJA</p>
-<<<<<<< HEAD
-                <div class="find-widget">
-                 Naslov: Achinetova 1,
-                 <br>
-                 1000 Ljubljana,
-                </div>
-                <div class="find-widget">
-                  Tel:  041 403-110,
-=======
+                <h4>ČISTILNI SERVIS URBANIJA</h4>
 
                 <div class="find-widget">
-                 Naslov: Archinetova 1,1000 Ljubljana
+                <span class="dashicons dashicons-location-alt"></span> Naslov: Archinetova 1,1000 Ljubljana
                 </div>
                 <div class="find-widget">
-                  Tel:  041 403-110
->>>>>>> d202cb790d117f6d508cd5a8b8a6833d21e4af5a
+                <p class="mb-0"><i class="fa fa-phone mr-3"></i>Tel:  041 403-110</p>
                 </div>
                 <div class="find-widget">
-                   Odprto: Ponedeljek – Sobota 7:00 - 19:00
+                <span class="dashicons dashicons-backup"></span> Odprto: Ponedeljek – Sobota 7:00 - 19:00
                 </div>
               </div>
               <!-- contact form -->
-              <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
-                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+              <div class="col-md-6 wow animated fadeInRight border border-black text-center" data-wow-delay=".2s">
+                  <form class="shake " role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
                       <!-- Name -->
                       <div class="form-group label-floating">
                         <label class="control-label" for="name">Ime</label>
@@ -66,7 +56,7 @@
                       </div>
                       <!-- Form Submit -->
                       <div class="form-submit mt-5">
-                          <button class="btn btn-common btn-clr" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                          <button class="btn btn-common btn-primary" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Pošljite sporočilo</button>
                           <div id="msgSubmit" class="h3 text-center hidden"></div>
                           <div class="clearfix"></div>
                       </div>

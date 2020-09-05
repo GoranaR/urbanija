@@ -19,7 +19,7 @@ get_header();?>
 </div>
 </div>
 
-d
+
 
 <hr class="solid">
 <br>
@@ -125,5 +125,6 @@ d
 
 
 <?php
+require "contact_form.php";
 get_footer();
 ?>
