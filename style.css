@@ -1,0 +1,157 @@
+/* Theme Name:Urbanija
+Author:Gorana Rađenović
+Version: 1.0
+*/
+/* Add a black background color to the top navigation */
+    body {
+      font-family: 'Titillium Web', sans-serif;
+    }
+    .background{
+      background-repeat: no-repeat;
+      background-attachment: fixed ;
+      background-size: cover;
+   
+     
+    }
+.topnav {
+    background-color:rgb(255, 255, 255) ;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color:#525252;
+    text-align: center;
+    font-weight:lighter;
+    padding:39px 33px 33px  33px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  
+    color: rgb(197, 197, 197);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: white
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .wrapper {
+    float: left;
+    margin: 10px auto;
+    border: 0px solid; 
+    width: 153px;
+    height: 87px;
+     overflow: hidden;
+    border-radius:20%;
+    object-fit: scale-down;
+   
+  }
+  
+ .display{
+   text-align: center;
+ }
+ .heading {
+     color: #ffffff;
+     font-weight:bold;
+     text-align: center;   
+ }
+.rgba-white-light {
+  color: #7e8083;
+  border-top: 2px solid;
+}
+  /* Float four columns side by side */
+  .column {
+    display: inline-block;
+    width: 22%;
+    padding: 5 5px;
+  }
+  
+  .col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 80%; /* Set full-width to expand the whole page */
+    height: 80%;
+    margin: 0 195px ;
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+  /* Remove extra left and right margins, due to padding in columns */
+  /* If the browser window is smaller than 600px, make the columns stack on top of each other */
+@media only screen and (max-width: 600px) {
+  .col {
+    display: block;
+    width: 100%;
+  }
+}
+  .row {
+   width: 100%;
+    display: flex;
+    margin: 0 0 ;
+   
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .padd {
+    padding-bottom: 20px;
+  }
+ 
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(138, 138, 138, 0.2); /* this adds the "card" effect */
+    border: none;
+    padding: 20px;
+    text-align: left;
+    background-color: #fffbfbfd;
+    
+  }
+  .card-title {
+    font: caption;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  .btn{
+    color: rgb(25, 25, 58);
+    background-color: rgb(255, 255, 255);
+    border-color:rgba(71, 71, 71, 0.664);
+    opacity: 3;
+  }
+
+.banner{
+width:100%; 
+  height: 400px;
+  display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.display-4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 250px;
+    overflow: hidden;
+}
+/* Rounded border */
+hr.solid {
+margin: 0 0 0 0  ;
+border-top: 3px solid rgba(146, 146, 146, 0.664);
+  }
+  .page-footer {
+      background-color: rgb(255, 255, 255) ;
+  }
+  .carousel-item {
+      width: 800;
+      height: 400px;
+  }
