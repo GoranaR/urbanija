@@ -8,12 +8,13 @@
   </body>
 
   <!-- Footer -->
+  
 <div class="mt pt-5 pb-5 footer">
 <div class="container">
   <div class="row">
     <div class="col-lg-5 col-xs-12 about-company">
       <h2>Urbanija čistilni servis</h2>
-      <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+      <p class="pr-5 text-white-50">Smo ključ do vašega čistega doma </p>
       <p><a href="https://www.facebook.com/cistilniservis.urbanija" target="_blank"><i class="fa fa-facebook-square mr-1"></i></a</p>
     </div>
     <div class="col-lg-3 col-xs-12 links">
@@ -22,7 +23,7 @@
        <li>-<a href="#about">O podjetju</a> </li>
        <li>-<a href="#about">Storitve</a> </li>
        <li>-<a href="#contact">Trgovina</a> </li>
-       <li>-<a href="#">Kontakt</a> </li>
+       <li>-<a href="kontakt">Kontakt</a> </li>
         </ul>
     </div>
     <div class="col-lg-4 col-xs-12 location">
